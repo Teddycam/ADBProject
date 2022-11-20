@@ -1,0 +1,30 @@
+Defaults:; --; timeout_iperf_client;3
+ADB path;"c:\\adb\\adb.exe";iperf3port;5400
+iperf_clnt_path;/data/local/tmp/;iperf_clnt_path2;/data/local/tmp/
+iperf2_version;iperf2.1.4; iperf3_version;iperf3.9
+iperf3_srvr_params;-s -D ; iperf3_tcp0; -i1 -w400K  -O2
+iperf2_srvr_tcp_params;-s -D -w16M ; iperf2_tcp0; -i1 -w16M
+iperf2_srvr_udp_params;-s -D -u ; iperf_srvr_cmd2chk;iperf
+iperf3_udp0; -u -i1 -O2 ; iperf2_udp0; -u -i1
+Servers:; --; --;--
+10.10.30.3;ubt-srv-ftp1;testuser;q1w2e3r4
+10.10.30.4;ubt-srv-ftp2;testuser;q1w2e3r4
+10.2.191.62;temp_notebook#1;testuser;q1w2e3r4
+10.2.191.105;temp_notebook#2;testuser;q1w2e3r4
+192.168.1.32;HOME_notebook;testuser;q1w2e3r4
+End of file;end;end;end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
